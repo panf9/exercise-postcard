@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Macondo&display=swap");
+
+.tipo-letra {
+	font-family: "Macondo", cursive;
+	font-weight: 400;
+	font-style: normal;
+}
+
+body {
+	background: black;
+}
+
+.postcard {
+	background-color: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+}
+img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-body {
+	display: flex;
+	font-size: 16px;
+}
+
+.body-left p:first-child {
+	margin-top: 0px;
+}
+
+.body-left,
+.body-right {
+	padding: 5px;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid grey;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: rgb(185, 184, 184);
+	padding: 5px;
+	border-style: none;
+	border-bottom: 0px;
+	border-bottom: 1.5px solid grey;
+}
